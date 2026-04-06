@@ -18,7 +18,7 @@
 ---
 
 ## GitHub Repository
-https://github.com/Dain05/CS262-Assignment-3-GUI  
+github.com/Dain05/CS262-Assignment-3-GUI
 
 ---
 
