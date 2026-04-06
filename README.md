@@ -1,29 +1,63 @@
-Assignment #3 – GUI Applications
+# Assignment #3 – GUI Applications
 
-Course: CS262 – Introduction to Object-Oriented Programming II  
-Lecturer: Doron Williams  
+## Course Information
+**Course:** Introduction to Object-Oriented Programming II (CS262)  
+**Lecturer:** Doron Williams  
+**Type:** Group Assignment  
+**Due Date:** April 7, 2026  
 
-Group Members:
-- Dain Thorpe – 2301011605
-- Joan Johnson-Brown – 2401010520
-- Shanique Wisdom – 2401010649
-- Pasha Pinnock – 2401011323
-- Dante Graham – 2401010192
+---
 
-Project Description:
+## Group Members
+- Dain Thorpe – 2301011605  
+- Joan Johnson-Brown – 2401010520  
+- Shanique Wisdom – 2401010649  
+- Pasha Pinnock – 2401011323  
+- Dante Graham – 2401010192  
 
-This project consists of two Java Swing GUI applications:
+---
 
-1. Currency Converter
-- Converts USD, CAD, and EUR to JMD
-- Uses a separate logic class for conversion
-- Includes input validation using try-catch and JOptionPane
-- Includes a Clear button
-- Saves successful conversions to conversion_history.txt
+## GitHub Repository
+https://github.com/Dain05/CS262-Assignment-3-GUI  
 
-2. Simple Text Editor
-- Uses JTextArea for text editing
-- Includes a File menu with Open, Save, and Exit
-- Saves text to editor_output.txt
-- Opens saved text from file
-- Uses try-catch-finally for file handling
+---
+
+## Project Overview
+
+This project implements two Java Swing GUI applications:
+
+### 1. Currency Converter
+- Converts USD, CAD, and EUR to JMD  
+- Uses a separate logic class (`ConverterLogic`)  
+- Implements input validation using try-catch  
+- Displays messages using `JOptionPane`  
+- Includes a Clear button to reset fields  
+- Saves conversion history to `conversion_history.txt`  
+
+---
+
+### 2. Simple Text Editor
+- Uses `JTextArea` for text input  
+- Implements a menu system (File → Open, Save, Exit)  
+- Saves text to `editor_output.txt`  
+- Opens and loads saved text from file  
+- Uses file handling (`BufferedReader`, `FileWriter`, `PrintWriter`)  
+- Includes error handling using try-catch  
+
+---
+
+## Project Files
+
+- `ConverterGUI.java` – GUI for currency converter  
+- `ConverterLogic.java` – Handles conversion calculations  
+- `TextEditorGUI.java` – GUI for text editor  
+
+---
+
+## Key Concepts Demonstrated
+
+- Java Swing GUI development  
+- Event handling (ActionListener)  
+- File handling (read/write)  
+- Exception handling (try-catch)  
+- Separation of concerns (logic vs GUI)
